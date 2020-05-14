@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8"> 
+  <title>Document</title>
+ </head>
+ <body>
+  <form method="GET" action="process2.php" >
+  	이름 : <input type="text" name="myName" placehold="ID를 입력하세요"><br>
+	학년 : <input type="radio" name="grade" value=1 > 1학년   
+	<input type="radio" name="grade" value=2 checked> 2학년 
+	<input type="radio" name="grade" value=3 > 3학년 <br>
+	선택과목 : 
+	<input type="checkbox" name="lecture[]" value="php" > PHP 
+	<input type="checkbox" name="lecture[]" value="C" > C 
+	<input type="checkbox" name="lecture[]" value="java" > JAVA 
+	<br>
+	<input type="submit" value="확인"> 
+	<input type="image" src="https://t1.daumcdn.net/daumtop_chanel/op/20170315064553027.png">
+  </form>
+ </body>
+</html>
